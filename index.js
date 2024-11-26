@@ -13,7 +13,7 @@ app.use(cors());
 // database connection
 (async () => {
   db = await open({
-    filename: './database.sqlite',
+    filename: '../foodiefinds-backend/database.sqlite',
     driver: sqlite3.Database,
   });
 })();
